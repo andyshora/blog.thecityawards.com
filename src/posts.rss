@@ -4,24 +4,24 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
  
   <title>hawksworx.com</title>
-  <link href="http://hawksworx.com/"/>
-  <link type="application/atom+xml" rel="self" href="http://hawksworx.com/atom.xml"/>
+  <link href="http://blog.thecityawards.com"/>
+  <link type="application/atom+xml" rel="self" href="http://blog.thecityawards.com/atom.xml"/>
   <updated>{{ site.time | date_to_xmlschema }}</updated>
-  <id>http://hawksworx.com/</id>
+  <id>http://blog.thecityawards.com/</id>
   <author>
-    <name>Phil Hawksworth</name>
-    <email>phawksworth@gmail.com</email>
+    <name>The City Awards</name>
+    <email>info@thecityawards.com</email>
   </author>
 
   {% for post in site.posts %}
   <entry>
-    <id>http://hawksworx.com{{ post.id }}</id>
-    <link type="text/html" rel="alternate" href="http://hawksworx.com{{ post.url }}"/>
+    <id>http://blog.thecityawards.com{{ post.id }}</id>
+    <link type="text/html" rel="alternate" href="http://blog.thecityawards.com{{ post.url }}"/>
     <title>{{ post.title | xml_escape }}</title>
     <updated>{{ post.date | date_to_xmlschema }}</updated>
     <author>
-      <name>Phil Hawksworth</name>
-      <uri>http://hawksworx.com/</uri>
+      <name>The City Awards</name>
+      <uri>http://blog.thecityawards.com</uri>
     </author>
     <content type="html">{{ post.content | xml_escape }}</content>
   </entry>

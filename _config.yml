@@ -1,10 +1,10 @@
-url: http://hawksworx.com
+url: http://blog.thecityawards.com
 port: 4000
 source:         ./src
 destination:    ./_site
 plugins:        ./_plugins
-tag_dir:        /blog/tag
-permalink:      /blog/:title
+tag_dir:        /tag
+permalink:      /:title
 sass:
   sass_dir: css/_scss
   style:  compressed
