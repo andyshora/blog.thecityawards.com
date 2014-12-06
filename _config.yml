@@ -6,5 +6,5 @@ plugins:        ./_plugins
 tag_dir:        /tag
 permalink:      /:title
 sass:
-  sass_dir: css/_scss
+  sass_dir: css
   style:  compressed

@@ -1,7 +1,7 @@
 {
-  "name": "hawksworx.com",
+  "name": "blog.thecityawards.com",
   "version": "0.0.1",
-  "description": "the personal blog of Phil Hawksworth",
+  "description": "The City Awards Blog",
   "main": "grunt.js",
   "dependencies": {
     "gulp-html-replace": "~1.1.0",
@@ -25,13 +25,17 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/philhawksworth/hawksworx.com.git"
+    "url": "git://github.com/andyshora/blog.thecityawards.com.git"
   },
   "keywords": [
     "blog",
     "jekyll",
     "static"
   ],
-  "author": "Phil Hawksworth",
-  "license": "MIT"
+  "author": "Andy Shora",
+  "license": "MIT",
+  "devDependencies": {
+    "gulp-rename": "^1.2.0",
+    "sass": "^0.5.0"
+  }
 }

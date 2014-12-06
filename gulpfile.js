@@ -10,6 +10,8 @@ var yaml        = require('json2yaml');
 var fs          = require('fs');
 var http        = require('http');
 var gravatar    = require('gravatar');
+var sass        = require('gulp-sass');
+var rename = require('gulp-rename');
 // var htmlreplace = require('gulp-html-replace');
 
 
@@ -36,12 +38,17 @@ gulp.task('scripts', function() {
 
 
 // Minify and copy all CSS
-gulp.task('styles', function() {
+gulp.task('styles', ['sass'], function() {
   return gulp.src(paths.source + '/css/*.css')
     .pipe(cssmin())
     .pipe(gulp.dest(paths.deploy + '/css/'));
 });
 
+gulp.task('sass', function() {
+  return gulp.src('src/css/styles.scss')
+    .pipe(sass())
+    .pipe(gulp.dest(paths.source + '/css'));
+});
 
 // lint the javascripts (except third party scripts)
 gulp.task('lint', function () {
@@ -134,7 +141,7 @@ gulp.task("comments", function() {
 
 
 // Build and optimise the site and serve it locally.
-gulp.task('build', ['jekyll', 'scripts', 'styles', 'images']);
+gulp.task('build', ['jekyll', 'scripts', 'styles'/*, 'images'*/]);
 
 
 // deploy to gh-pages.
