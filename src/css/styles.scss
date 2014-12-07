@@ -7,6 +7,18 @@
 .blog-header {
   text-align: center;
   position: relative;
+  padding-bottom: 0;
+}
+
+.blog-main {
+  padding-top: 0;
+  position: relative;
+
+  .blog-tags {
+    position: absolute;
+    right: 5%;
+    top: 50px;
+  }
 }
 
 .blog-more {
@@ -31,6 +43,39 @@
       @include from-width(1200) {
         width: 25%;
       }
+    }
+  }
+}
+
+.divider-star {
+  width: 40px;
+  height: 40px;
+  padding: 0;
+  margin: 20px auto;
+  position: relative;
+  display: block;
+  clear: both;
+  background: rgb(249, 249, 249);
+  @include prefix(border-radius, 20px);
+
+  &:after {
+    content: '★';
+    position: absolute;
+    top: 0;
+    left: 50%;
+    font-size: 18px;
+    margin-left: -9px;
+    margin-top: 9px;
+    line-height: 1;
+    color: white;
+    font-style: normal;
+    color: #414141;
+    @include transition(all 1s);
+  }
+
+  &:hover {
+    &:after {
+      @include transform(rotate(720deg) scale(.5));
     }
   }
 }
