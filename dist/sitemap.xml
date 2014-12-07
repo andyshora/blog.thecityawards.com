@@ -2,14 +2,18 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://blog.thecityawards.com/the-shapes-of-web-views</loc>
-  </url>
-  
-  <url>
-    <loc>http://blog.thecityawards.com/adding-a-static-comments-system-to-my-jekyll-build</loc>
+    <loc>http://blog.thecityawards.com/hello</loc>
   </url>
   
 
+  
+  
+  <url>
+    <loc>http://blog.thecityawards.com/</loc>
+  </url>
+  
+  
+  
   
   
   

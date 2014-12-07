@@ -1,2 +1,31 @@
+---
+---
+@import "_mixins";
 @import "_copy";
 @import "_syntax";
+
+.blog-more {
+  > ul {
+    padding: 20px 0;
+    margin: 0;
+    > li {
+      display: inline-block;
+      vertical-align: top;
+      width: 100%;
+      @include prefix(box-sizing, border-box);
+      padding: 10px 40px 10px 0;
+
+      @include from-width(600) {
+        width: 50%;
+      }
+
+      @include from-width(900) {
+        width: 33.3%;
+      }
+
+      @include from-width(1200) {
+        width: 25%;
+      }
+    }
+  }
+}

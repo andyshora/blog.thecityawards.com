@@ -1,148 +1,30 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="robots" content="index, follow"/>
-    <meta name="viewport" content="width=device-width, minimum-scale=1.0">
-    <link rel="stylesheet" href="/css/styles.css">
-    <meta name="description" content="">
-    <title>The City Awards</title>
-    <!--
-    The javascript and assets for this site are compressed for performance reasons.
-    However, it's always nice to be able to see what is going on under the hood for
-    the sake of learning and tinkering.
+---
+layout: base
+title: The City Awards
+heading: "The City Awards: Blog"
+pageclass: home
+---
 
-    You can see the uncompressed versions of the Javascript, and indeed the entire
-    source of this site at https://github.com/philhawksworth/blog.thecityawards.com
-
-    Thanks for popping by!
-    -->
-     <link rel="alternate" type="application/rss+xml" title="Phil Hawksworth's Blog" href="http://blog.thecityawards.com/posts.rss" />
-
-    <script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-  // ga('create', 'UA-119040-3', 'auto');
-  // ga('send', 'pageview');
-</script>
-
-
-
-
-  </head>
-  <body class="home">
-  <div class="header">
-    <div class="container">
-        <ul class="nav">
-          <li><a href="/" class="home">hawksworx</a></li>
-          <li><a href="/blog">blog</a></li>
-          <li><a href="/speaking">speaking</a></li>
-          <li class="search">
-            <a href="/search">search</a>
-            <form action="" method="get" class="searchform" id="searchform">
-              <input type="hidden" name="q" id="site" value="site:blog.thecityawards.com">
-              <input type="text" name="q" class="q" placehoder="search" id="searchstr">
-            </form>
-          </li>
-        </ul>
-        <div class="search-results">
-          <ul class="listing"></ul>
-        </div>
-      <h1 class="shout">The City Awards</h1>
-      
-    </div>
-  </div>
-
-  <div class="content">
-    <div class="container">
-    
+{% for post in site.posts offset:0 limit:1 %}
 
 <article class="post listing">
-  <h2 class="post-title"><a href="/blog/the-shapes-of-web-views">The shapes of web views</a></h2>
+  <h2 class="post-title"><a href="{{ post.url }}">{{ post.title }}</a></h2>
   <div class="meta">
-      <time datetime="2014-11-05 00:00:00 +0000">05 November 2014</time>
+      <time datetime="{{post.date}}">{{post.date | date_to_long_string}}</time>
       Tagged
-      
-      
-      <a href="/blog/tag/web">web</a>
-      
-      
-      <a href="/blog/tag/development">development</a>
-      
-      
+      {% for tag in post.tags %}
+      {% if forloop.last %}
       and
-      
-      <a href="/blog/tag/rwd">rwd</a>
-      
+      {% endif %}
+      <a href="/blog/tag/{{ tag }}">{{ tag }}</a>
+      {% endfor %}
   </div>
   <div class="grab">
-    <div class="grab">
-  <p>
-    A few nice folks around the web have been sharing visualisations of the most popular viewport sizes appearing in the analytics for their sites. I thought these were beautiful and useful and wanted to make it easier for people to create their own and highlight the need for responsive web design.
-  </p>
-  <figure>
-  <img src="/images/viewport-graph-wide.png" alt="The most common viewports used to view this site">
-</figure>
-</div>
-
-
-      <a href="/blog/the-shapes-of-web-views" class="more">continue reading this post</a>
+    {{ post.excerpt }}
+      <a href="{{ post.url }}" class="more">continue reading this post</a>
    </div>
 </article>
 
+{% endfor %}
 
 
-
-
-
-    </div>
-  </div>
-
-  
-
-  <div class="footer">
-    <div class="container">
-      <div class="howdy">
-        <h2>Hi</h2>
-        <img src="/images/philhawksworth.jpg" alt="Phil Hawksworth" class="face">
-        <p>
-          I'm Phil Hawksworth, a web developer working in London at <a href="http://rga.com">R/GA</a>
-        </p>
-        <p>
-          Elsewhere 
-          <a rel="me" href="http://twitter.com/thecityawards">Twitter</a>
-        </p>
-        <p>
-          Nerds and colleagues might need my <a href="/philhawksworth.pub.txt">Public ssh key</a>
-        </p>
-      </div>
-      <div class="colo">
-        <h2>About this site</h2>
-        <p>
-          This site is served statically from Github pages after being built with Jekyll. The source is available on Github.
-        </p>
-        <p>
-          <em>Other than where specified, the content on this site is published under a <a href="http://creativecommons.org/licenses/by/3.0/">Creative Commons</a> Attribution 3.0 licence.</em>
-        </p>
-      </div>
-    </div>
-    <div class="nav">
-      <div class="container">
-        <ul class="nav">
-          <li><a href="/" class="home">hawksworx</a></li>
-          <li><a href="/blog">blog</a></li>
-          <li><a href="/speaking">speaking</a></li>
-          <li><a href="/search">search</a></li>
-        </ul>
-      </div>
-    </div>
-  </div>
-
-    <!-- build:js -->
-    <script src="/js/jquery.min.js" type="text/javascript"></script>
-    <!-- endbuild -->
-
-  </body>
-</html>

@@ -38,17 +38,17 @@ gulp.task('scripts', function() {
 
 
 // Minify and copy all CSS
-gulp.task('styles', ['sass'], function() {
+gulp.task('styles', function() {
   return gulp.src(paths.source + '/css/*.css')
     .pipe(cssmin())
     .pipe(gulp.dest(paths.deploy + '/css/'));
 });
 
-gulp.task('sass', function() {
+/*gulp.task('sass', function() {
   return gulp.src('src/css/styles.scss')
     .pipe(sass())
     .pipe(gulp.dest(paths.source + '/css'));
-});
+});*/
 
 // lint the javascripts (except third party scripts)
 gulp.task('lint', function () {
