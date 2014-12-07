@@ -4,7 +4,7 @@
   <title>hawksworx.com</title>
   <link href="http://blog.thecityawards.com"/>
   <link type="application/atom+xml" rel="self" href="http://blog.thecityawards.com/atom.xml"/>
-  <updated>2014-12-07T14:07:47+00:00</updated>
+  <updated>2014-12-07T15:49:30+00:00</updated>
   <id>http://blog.thecityawards.com/</id>
   <author>
     <name>The City Awards</name>
@@ -33,6 +33,76 @@
   Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis, hic.
 &lt;/p&gt;
 
+</content>
+  </entry>
+  
+  <entry>
+    <id>http://blog.thecityawards.com/race-for-best-burger-in-london</id>
+    <link type="text/html" rel="alternate" href="http://blog.thecityawards.com/race-for-best-burger-in-london"/>
+    <title>The race for #BestBurgerInLondon is almost over!</title>
+    <updated>2014-12-05T00:00:00+00:00</updated>
+    <author>
+      <name>The City Awards</name>
+      <uri>http://blog.thecityawards.com</uri>
+    </author>
+    <content type="html">&lt;div class=&quot;grab&quot;&gt;
+  &lt;p&gt;
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque asperiores, quisquam tenetur repellat est neque fuga, blanditiis.
+  &lt;/p&gt;
+&lt;/div&gt;
+
+&lt;!-- more --&gt;
+
+&lt;p&gt;
+  Veniam unde quibusdam, natus quisquam numquam officia, ut laboriosam nostrum odio, consequatur porro, quia praesentium quidem! Asperiores minima nesciunt placeat molestias amet ad culpa nostrum cumque, ex, soluta dolores, temporibus similique sit veniam.
+&lt;/p&gt;
+
+</content>
+  </entry>
+  
+  <entry>
+    <id>http://blog.thecityawards.com/we-are-evolving</id>
+    <link type="text/html" rel="alternate" href="http://blog.thecityawards.com/we-are-evolving"/>
+    <title>We&#39;ve evolving</title>
+    <updated>2014-12-04T00:00:00+00:00</updated>
+    <author>
+      <name>The City Awards</name>
+      <uri>http://blog.thecityawards.com</uri>
+    </author>
+    <content type="html">&lt;div class=&quot;grab&quot;&gt;
+  &lt;p&gt;
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque asperiores, quisquam tenetur repellat est neque fuga, blanditiis.
+  &lt;/p&gt;
+&lt;/div&gt;
+
+&lt;!-- more --&gt;
+
+&lt;p&gt;
+  Veniam unde quibusdam, natus quisquam numquam officia, ut laboriosam nostrum odio, consequatur porro, quia praesentium quidem! Asperiores minima nesciunt placeat molestias amet ad culpa nostrum cumque, ex, soluta dolores, temporibus similique sit veniam.
+&lt;/p&gt;
+</content>
+  </entry>
+  
+  <entry>
+    <id>http://blog.thecityawards.com/styleguide</id>
+    <link type="text/html" rel="alternate" href="http://blog.thecityawards.com/styleguide"/>
+    <title>Our Styleguide</title>
+    <updated>2014-12-03T00:00:00+00:00</updated>
+    <author>
+      <name>The City Awards</name>
+      <uri>http://blog.thecityawards.com</uri>
+    </author>
+    <content type="html">&lt;div class=&quot;grab&quot;&gt;
+  &lt;p&gt;
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque asperiores, quisquam tenetur repellat est neque fuga, blanditiis.
+  &lt;/p&gt;
+&lt;/div&gt;
+
+&lt;!-- more --&gt;
+
+&lt;p&gt;
+  Veniam unde quibusdam, natus quisquam numquam officia, ut laboriosam nostrum odio, consequatur porro, quia praesentium quidem! Asperiores minima nesciunt placeat molestias amet ad culpa nostrum cumque, ex, soluta dolores, temporibus similique sit veniam.
+&lt;/p&gt;
 </content>
   </entry>
   
