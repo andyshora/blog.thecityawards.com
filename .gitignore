@@ -1,9 +1,6 @@
-<<<<<<< HEAD
 node_modules
 _site
 .sass-cache
 .divshot-cache
 .DS_Store
-=======
-_site
->>>>>>> gh-pages
+

@@ -4,6 +4,11 @@
 @import "_copy";
 @import "_syntax";
 
+.blog-header {
+  text-align: center;
+  position: relative;
+}
+
 .blog-more {
   > ul {
     padding: 20px 0;
