@@ -2,12 +2,11 @@
 layout: base
 title: The City Awards
 heading: "The City Awards: Blog"
-subheading: "News and updates from <a href='http://www.thecityawards.com'>The City Awards</a>"
+subheading: "Updates from <a href='http://www.thecityawards.com'>The City Awards</a> + Win stuff"
 pageclass: home
 ---
 
 {% for post in site.posts offset:0 limit:1 %}
-
 <article class="post listing">
   <h2 class="post-title"><a href="{{ post.url }}">{{ post.title }}</a></h2>
   <div class="meta">
@@ -18,12 +17,10 @@ pageclass: home
     <a href="/tag/{{ tag }}">#{{ tag }}</a>
     {% endfor %}
   </div>
-  <div class="grab">
-    {{ post.excerpt }}
-      <a href="{{ post.url }}" class="more">continue reading this post</a>
-   </div>
+  <div>
+    {{ post.content }}
+  </div>
 </article>
-
 {% endfor %}
-
+<hr class="divider-star">
 

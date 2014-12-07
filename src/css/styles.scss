@@ -8,7 +8,7 @@
 .blog-header {
   text-align: center;
   position: relative;
-  padding-bottom: 0;
+  padding-bottom: 20px;
 }
   .back-to-tca {
     position: absolute;
@@ -16,11 +16,13 @@
     left: 0;
     display: inline-block;
     padding: 10px 20px;
+    text-decoration: none;
   }
 
 
 .blog-main {
   padding-top: 0;
+  padding-bottom: 0;
   position: relative;
 
   .blog-tags {
@@ -31,6 +33,7 @@
 }
 
 .blog-more {
+  background: rgb(249, 249, 249);
   > ul {
     padding: 20px 0;
     margin: 0;

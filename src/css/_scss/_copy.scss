@@ -63,7 +63,7 @@ button:active{top:1px}
 .animation--start .intro h1,.animation--start .intro p{opacity:1}
 .intro p{transition-delay:1s;-webkit-transition-delay:1s;-ms-transition-delay:1s;-moz-transition-delay:1s;-o-transition-delay:1s}
 #animated-logo{margin:0 auto;padding:0;width:100%}
-#animated-logo h1{font-size:2em;line-height:1;letter-spacing:1px;font-weight:400}
+#animated-logo h1{font-size:2em;line-height:1;letter-spacing:1px}
 .buildings{margin:0 auto -10px;padding:0;width:260px;border-radius:180px 180px 0 0;-webkit-border-radius:180px 180px 0 0;-ms-border-radius:180px 180px 0 0;-moz-border-radius:180px 180px 0 0;-o-border-radius:180px 180px 0 0;overflow:hidden;position:relative;border-bottom:2px solid #000}
 .buildings:before{content:'';display:block;width:260px;height:130px;position:absolute;top:0;background:#36aefc;-moz-transition:all 1.6s .2s;-o-transition:all 1.6s .2s;-ms-transition:all 1.6s .2s;-webkit-transition:all 1.6s .2s;transition:all 1.6s .2s;-moz-transform:translateY(130px);-o-transform:translateY(130px);-ms-transform:translateY(130px);-webkit-transform:translateY(130px);transform:translateY(130px);border-radius:180px 180px 0 0;-webkit-border-radius:180px 180px 0 0;-ms-border-radius:180px 180px 0 0;-moz-border-radius:180px 180px 0 0;-o-border-radius:180px 180px 0 0}
 .animation--start .buildings:before{-moz-transform:translateY(0px);-o-transform:translateY(0px);-ms-transform:translateY(0px);-webkit-transform:translateY(0px);transform:translateY(0px)}
@@ -233,7 +233,7 @@ hr{width:95%;height:1px;border:none;background:#ccc;margin:30px 0;padding:0}
 @media only screen and (min-width:768pxpx){.section{padding:50px 10%;width:80%}}
 ul{margin:0 0 0 30px;padding:20px 0}
 body{font-family:'Open Sans',Helvetica,Arial,serif;font-size:15px;line-height:1.7;font-weight:300}
-h1,h2,h3,h4{font-family:'Open Sans',serif;font-weight:400;margin:0;padding:0}
+h1,h2,h3,h4{font-family:'Open Sans',serif;font-weight:300;margin:0;padding:0}
 a,a:hover{color:#4183c4;cursor:pointer;text-decoration:underline}
 .theme--p1 a,.theme--p1 a:hover{color:#fff}
 .theme--c1 a,.theme--c1 a:hover{color:#36aefc}
