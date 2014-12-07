@@ -12,6 +12,7 @@
   </head>
   <body class="{{ page.pageclass }}">
     <header class="blog-header section">
+      <a href="http://www.thecityawards.com" class="back-to-tca">&larr; back to thecityawards.com</a>
       <div id="animated-logo">
         <ul class="buildings"><li class="building-1"></li><li class="building-2"></li><li class="building-3"></li><li class="building-4"></li><li class="building-5"></li><li class="building-6"></li></ul><i class="star star1"></i><i class="star star2"></i><i class="star star3"></i><i class="star star4"></i><i class="star star5"></i><h1>{{ page.heading }}</h1>
         <p>{{ page.subheading }}</p>
@@ -24,20 +25,18 @@
     </div>
     <div class="blog-more section">
       <h2>More from The City Awards</h2>
+
       <ul>
-        <li>
-          <h3>Lorem ipsum dolor sit.</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum, voluptas modi velit quibusdam minus aspernatur.</p>
-        </li><li>
-          <h3>Lorem ipsum dolor sit.</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus eius, suscipit molestias architecto quaerat illum.</p>
-        </li><li>
-          <h3>Lorem ipsum dolor sit.</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea voluptas, molestias necessitatibus cumque, voluptatibus voluptate.</p>
-        </li><li>
-          <h3>Lorem ipsum dolor sit.</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque necessitatibus, quia culpa quae vel. Ipsam.</p>
-        </li>
+        {% for post in site.posts offset:1 limit:4 %}<li>
+          <div class="blog-tags">
+            {% for tag in post.tags %}
+            <a href="/tag/{{ tag }}">#{{ tag }}</a>
+            {% endfor %}
+          </div>
+          <h3 class="post-title"><a href="{{ post.url }}">{{ post.title }}</a></h3>
+          <p>{{ post.excerpt }}</p>
+          <p><a href="{{ post.url }}" class="more">continue reading...</a></p>
+        </li>{% endfor %}
       </ul>
     </div>
     <div class="blog-links section"></div>
