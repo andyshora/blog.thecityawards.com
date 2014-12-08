@@ -10,7 +10,6 @@ var yaml        = require('json2yaml');
 var fs          = require('fs');
 var http        = require('http');
 var gravatar    = require('gravatar');
-var sass        = require('gulp-sass');
 var rename = require('gulp-rename');
 // var htmlreplace = require('gulp-html-replace');
 
