@@ -4,13 +4,35 @@
   <title>hawksworx.com</title>
   <link href="http://blog.thecityawards.com"/>
   <link type="application/atom+xml" rel="self" href="http://blog.thecityawards.com/atom.xml"/>
-  <updated>2015-01-31T15:50:29+00:00</updated>
+  <updated>2015-01-31T16:47:14+00:00</updated>
   <id>http://blog.thecityawards.com/</id>
   <author>
     <name>The City Awards</name>
     <email>info@thecityawards.com</email>
   </author>
 
+  
+  <entry>
+    <id>http://blog.thecityawards.com/tommis-burger-joint-is-the-best-burger-in-london</id>
+    <link type="text/html" rel="alternate" href="http://blog.thecityawards.com/tommis-burger-joint-is-the-best-burger-in-london"/>
+    <title>It&#39;s official: Tommi&#39;s Burger London has the Best Burger in London!</title>
+    <updated>2015-01-31T00:00:00+00:00</updated>
+    <author>
+      <name>The City Awards</name>
+      <uri>http://blog.thecityawards.com</uri>
+    </author>
+    <content type="html">&lt;div class=&quot;grab&quot;&gt;
+  &lt;p&gt;Thousands of Londoners have been voting for the first City Award, and we&#39;re delighted to announce that Tommi&#39;s Burger Joint have taken the prize for the #BestBurgerInLondon in 2014!&lt;/p&gt;
+  &lt;p&gt;Tommi&#39;s have beaten off some fierce competition for the award, including strong contenters in Patty &amp;amp; Bunn and Burger Bear, but the Kings Road (and now Marylebone) based burger joint soon raced into an unassailable lead, taking almost 25% of the votes for the 16 restaurants!
+&lt;/div&gt;
+
+&lt;!-- more --&gt;
+
+&lt;p&gt;
+  You can carry on voting for the &lt;a href=&quot;http://www.thecityawards.com/best-burger-in-london&quot; title=&quot;Vote for the Best Burger in London&quot;&gt;#BestBurgerInLondon at The City Awards.&lt;/a&gt;
+&lt;/p&gt;
+</content>
+  </entry>
   
   <entry>
     <id>http://blog.thecityawards.com/hello</id>
@@ -96,28 +118,6 @@
   &lt;p&gt;
     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque asperiores, quisquam tenetur repellat est neque fuga, blanditiis.
   &lt;/p&gt;
-&lt;/div&gt;
-
-&lt;!-- more --&gt;
-
-&lt;p&gt;
-  Veniam unde quibusdam, natus quisquam numquam officia, ut laboriosam nostrum odio, consequatur porro, quia praesentium quidem! Asperiores minima nesciunt placeat molestias amet ad culpa nostrum cumque, ex, soluta dolores, temporibus similique sit veniam.
-&lt;/p&gt;
-</content>
-  </entry>
-  
-  <entry>
-    <id>http://blog.thecityawards.com/tommis-burger-joint-is-the-best-burger-in-london</id>
-    <link type="text/html" rel="alternate" href="http://blog.thecityawards.com/tommis-burger-joint-is-the-best-burger-in-london"/>
-    <title>It&#39;s official: Tommi&#39;s Burger London has the Best Burger in London!</title>
-    <updated>2014-01-31T00:00:00+00:00</updated>
-    <author>
-      <name>The City Awards</name>
-      <uri>http://blog.thecityawards.com</uri>
-    </author>
-    <content type="html">&lt;div class=&quot;grab&quot;&gt;
-  &lt;p&gt;Thousands of Londoners have been voting for the first City Award, and we&#39;re delighted to announce that Tommi&#39;s Burger Joint have taken the prize for the #BestBurgerInLondon!&lt;/p&gt;
-  &lt;p&gt;Tommi&#39;s have beaten off some fierce competition for the award, including strong contenters in Patty &amp;amp; Bunn and Burger Bear, but the Kings Road (and now Marylebone) based burger joint soon raced into an unassailable lead, taking almost 25% of the votes for the 16 restaurants!
 &lt;/div&gt;
 
 &lt;!-- more --&gt;
