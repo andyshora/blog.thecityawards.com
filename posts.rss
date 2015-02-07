@@ -4,13 +4,34 @@
   <title>hawksworx.com</title>
   <link href="http://blog.thecityawards.com"/>
   <link type="application/atom+xml" rel="self" href="http://blog.thecityawards.com/atom.xml"/>
-  <updated>2015-01-31T18:23:02+00:00</updated>
+  <updated>2015-02-07T19:56:44+00:00</updated>
   <id>http://blog.thecityawards.com/</id>
   <author>
     <name>The City Awards</name>
     <email>info@thecityawards.com</email>
   </author>
 
+  
+  <entry>
+    <id>http://blog.thecityawards.com/best-vegetarian-in-london-award</id>
+    <link type="text/html" rel="alternate" href="http://blog.thecityawards.com/best-vegetarian-in-london-award"/>
+    <title>We&#39;ve launched the #BestVegetarianInLondon award!</title>
+    <updated>2015-02-07T00:00:00+00:00</updated>
+    <author>
+      <name>The City Awards</name>
+      <uri>http://blog.thecityawards.com</uri>
+    </author>
+    <content type="html">&lt;div class=&quot;grab&quot;&gt;
+  &lt;p&gt;Although our launch was famously meat-themed, it&#39;s the opposite crowd who have come forth and made sure our second award is in their hands!&lt;/p&gt;
+  &lt;p&gt;The race to find the Best Vegetarian in London is well and truly on. &lt;a href=&quot;http://www.thecityawards.com/best-vegetarian-in-london#venue-gAlJEFx6z1&quot; title=&quot;The Gate, Islington&quot;&gt;The Gate in Islington&lt;/a&gt; have taken quite a commanding lead from the venues on our shortlist, taking in over 50% of the vote. However, voting has just begun, and it&#39;s still not too late to nominate your favourite venue if you don&#39;t see them on the list.&lt;/p&gt;
+  &lt;p&gt;Remember to tweet your vote with the hashtag #BestVegetarianInLondon for your chance to win a free meal for two at one of the venues this month!&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;!-- more --&gt;
+
+&lt;p&gt;You can carry on voting for the &lt;a href=&quot;http://www.thecityawards.com/best-vegetarian-in-london&quot; title=&quot;Vote for the Best Vegetarian in London&quot;&gt;Best Vegetarian in London&lt;/a&gt;, as well as lots of other awards, at &lt;a href=&quot;http://www.thecityawards.com&quot;&gt;www.thecityawards.com&lt;/a&gt;.&lt;/p&gt;
+</content>
+  </entry>
   
   <entry>
     <id>http://blog.thecityawards.com/tommis-burger-joint-is-the-best-burger-in-london</id>
